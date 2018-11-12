@@ -6,5 +6,5 @@ CXX_FLAGS =  -fopenmp -O3 -mcpu=cortex-a53+simd -mcpu=cortex-a53+fp
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/server/dk_app/ncnn/examples/face/../../src -I/home/server/dk_app/ncnn/examples/face/../../build/src -I/home/server/dk_app/ncnn/examples/face/../sqlite-autoconf-3250200 -I/home/server/dk_app/ncnn/examples/face/../dlib-19.15 
+CXX_INCLUDES = -I/home/server/dk_app/ncnn/examples/face/src/sqlite -I/home/server/dk_app/ncnn/examples/face/src/ncnn -I/home/server/dk_app/ncnn/examples/face/src 
 

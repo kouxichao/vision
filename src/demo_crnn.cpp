@@ -12,8 +12,6 @@
 // CONDITIONS OF ANY KIND, either express or implied. See the License for the
 // specific language governing permissions and limitations under the License.
 #include <stdio.h>
-#include <math.h>
-#include "net.h"
 #include "text_recognization.h"
 
 int main(int argc, char** argv)

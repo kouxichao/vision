@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/server/dk_app/ncnn/examp
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_43b56/fast"
-/usr/bin/make -f CMakeFiles/cmTC_43b56.dir/build.make CMakeFiles/cmTC_43b56.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_1be37/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1be37.dir/build.make CMakeFiles/cmTC_1be37.dir/build
 make[1]: Entering directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_43b56.dir/testCCompiler.c.o
-/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc    -o CMakeFiles/cmTC_43b56.dir/testCCompiler.c.o   -c /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_43b56
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43b56.dir/link.txt --verbose=1
-/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc      CMakeFiles/cmTC_43b56.dir/testCCompiler.c.o  -o cmTC_43b56 
+Building C object CMakeFiles/cmTC_1be37.dir/testCCompiler.c.o
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc    -o CMakeFiles/cmTC_1be37.dir/testCCompiler.c.o   -c /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_1be37
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1be37.dir/link.txt --verbose=1
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc      CMakeFiles/cmTC_1be37.dir/testCCompiler.c.o  -o cmTC_1be37 
 make[1]: Leaving directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_236ce/fast"
-/usr/bin/make -f CMakeFiles/cmTC_236ce.dir/build.make CMakeFiles/cmTC_236ce.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_5ed71/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5ed71.dir/build.make CMakeFiles/cmTC_5ed71.dir/build
 make[1]: Entering directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_236ce.dir/CMakeCCompilerABI.c.o
-/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc    -o CMakeFiles/cmTC_236ce.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.8/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_236ce
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_236ce.dir/link.txt --verbose=1
-/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc     -v CMakeFiles/cmTC_236ce.dir/CMakeCCompilerABI.c.o  -o cmTC_236ce 
+Building C object CMakeFiles/cmTC_5ed71.dir/CMakeCCompilerABI.c.o
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc    -o CMakeFiles/cmTC_5ed71.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_5ed71
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ed71.dir/link.txt --verbose=1
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc     -v CMakeFiles/cmTC_5ed71.dir/CMakeCCompilerABI.c.o  -o cmTC_5ed71 
 Using built-in specs.
 COLLECT_GCC=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc
 COLLECT_LTO_WRAPPER=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/lto-wrapper
@@ -59,9 +59,9 @@ Thread model: posix
 gcc version 6.3.0 (Compiler & Codesign TD V100R001C00B119) 
 COMPILER_PATH=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/bin/
 LIBRARY_PATH=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/../lib64/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/lib/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_236ce' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64' '-fno-tree-coalesce-vars'
- /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/collect2 -plugin /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/liblto_plugin.so -plugin-opt=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3qFSzW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -o cmTC_236ce /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crt1.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crti.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/crtbegin.o -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0 -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/../lib64 -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/lib -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib CMakeFiles/cmTC_236ce.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/crtend.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_236ce' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64' '-fno-tree-coalesce-vars'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5ed71' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64' '-fno-tree-coalesce-vars'
+ /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/collect2 -plugin /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/liblto_plugin.so -plugin-opt=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cccOZ9WG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -o cmTC_5ed71 /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crt1.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crti.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/crtbegin.o -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0 -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/../lib64 -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/lib -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib CMakeFiles/cmTC_5ed71.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/crtend.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5ed71' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64' '-fno-tree-coalesce-vars'
 make[1]: Leaving directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
 
 
@@ -69,14 +69,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_236ce/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_236ce.dir/build.make CMakeFiles/cmTC_236ce.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_5ed71/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_5ed71.dir/build.make CMakeFiles/cmTC_5ed71.dir/build]
   ignore line: [make[1]: Entering directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_236ce.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc    -o CMakeFiles/cmTC_236ce.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.8/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_236ce]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_236ce.dir/link.txt --verbose=1]
-  ignore line: [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc     -v CMakeFiles/cmTC_236ce.dir/CMakeCCompilerABI.c.o  -o cmTC_236ce ]
+  ignore line: [Building C object CMakeFiles/cmTC_5ed71.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc    -o CMakeFiles/cmTC_5ed71.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_5ed71]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ed71.dir/link.txt --verbose=1]
+  ignore line: [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc     -v CMakeFiles/cmTC_5ed71.dir/CMakeCCompilerABI.c.o  -o cmTC_5ed71 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/lto-wrapper]
@@ -86,13 +86,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 6.3.0 (Compiler & Codesign TD V100R001C00B119) ]
   ignore line: [COMPILER_PATH=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/bin/]
   ignore line: [LIBRARY_PATH=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/../lib64/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/lib/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_236ce' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64' '-fno-tree-coalesce-vars']
-  link line: [ /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/collect2 -plugin /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/liblto_plugin.so -plugin-opt=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3qFSzW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -o cmTC_236ce /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crt1.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crti.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/crtbegin.o -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0 -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/../lib64 -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/lib -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib CMakeFiles/cmTC_236ce.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/crtend.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5ed71' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64' '-fno-tree-coalesce-vars']
+  link line: [ /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/collect2 -plugin /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/liblto_plugin.so -plugin-opt=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cccOZ9WG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -o cmTC_5ed71 /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crt1.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crti.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/crtbegin.o -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0 -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/../lib64 -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/lib -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib CMakeFiles/cmTC_5ed71.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/crtend.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crtn.o]
     arg [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc3qFSzW.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cccOZ9WG.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -108,7 +108,7 @@ Parsed C implicit link information from above output:
     arg [--fix-cortex-a53-835769] ==> ignore
     arg [--fix-cortex-a53-843419] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_236ce] ==> ignore
+    arg [cmTC_5ed71] ==> ignore
     arg [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crt1.o] ==> ignore
     arg [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crti.o] ==> ignore
     arg [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/crtbegin.o] ==> ignore
@@ -119,7 +119,7 @@ Parsed C implicit link information from above output:
     arg [-L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib] ==> dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib]
     arg [-L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/lib] ==> dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/lib]
     arg [-L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib] ==> dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib]
-    arg [CMakeFiles/cmTC_236ce.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_5ed71.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -152,14 +152,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_22414/fast"
-/usr/bin/make -f CMakeFiles/cmTC_22414.dir/build.make CMakeFiles/cmTC_22414.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_9fb08/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9fb08.dir/build.make CMakeFiles/cmTC_9fb08.dir/build
 make[1]: Entering directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_22414.dir/feature_tests.c.o
-/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc   -std=c11 -o CMakeFiles/cmTC_22414.dir/feature_tests.c.o   -c /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_22414
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22414.dir/link.txt --verbose=1
-/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc      CMakeFiles/cmTC_22414.dir/feature_tests.c.o  -o cmTC_22414 
+Building C object CMakeFiles/cmTC_9fb08.dir/feature_tests.c.o
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc   -std=c11 -o CMakeFiles/cmTC_9fb08.dir/feature_tests.c.o   -c /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_9fb08
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fb08.dir/link.txt --verbose=1
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc      CMakeFiles/cmTC_9fb08.dir/feature_tests.c.o  -o cmTC_9fb08 
 make[1]: Leaving directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
 
 
@@ -172,14 +172,14 @@ make[1]: Leaving directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_23f91/fast"
-/usr/bin/make -f CMakeFiles/cmTC_23f91.dir/build.make CMakeFiles/cmTC_23f91.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_2f77c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2f77c.dir/build.make CMakeFiles/cmTC_2f77c.dir/build
 make[1]: Entering directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_23f91.dir/feature_tests.c.o
-/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc   -std=c99 -o CMakeFiles/cmTC_23f91.dir/feature_tests.c.o   -c /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_23f91
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23f91.dir/link.txt --verbose=1
-/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc      CMakeFiles/cmTC_23f91.dir/feature_tests.c.o  -o cmTC_23f91 
+Building C object CMakeFiles/cmTC_2f77c.dir/feature_tests.c.o
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc   -std=c99 -o CMakeFiles/cmTC_2f77c.dir/feature_tests.c.o   -c /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_2f77c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f77c.dir/link.txt --verbose=1
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc      CMakeFiles/cmTC_2f77c.dir/feature_tests.c.o  -o cmTC_2f77c 
 make[1]: Leaving directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
 
 
@@ -192,14 +192,14 @@ make[1]: Leaving directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6d46c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6d46c.dir/build.make CMakeFiles/cmTC_6d46c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_26e8b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_26e8b.dir/build.make CMakeFiles/cmTC_26e8b.dir/build
 make[1]: Entering directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6d46c.dir/feature_tests.c.o
-/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc   -std=c90 -o CMakeFiles/cmTC_6d46c.dir/feature_tests.c.o   -c /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_6d46c
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d46c.dir/link.txt --verbose=1
-/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc      CMakeFiles/cmTC_6d46c.dir/feature_tests.c.o  -o cmTC_6d46c 
+Building C object CMakeFiles/cmTC_26e8b.dir/feature_tests.c.o
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc   -std=c90 -o CMakeFiles/cmTC_26e8b.dir/feature_tests.c.o   -c /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_26e8b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26e8b.dir/link.txt --verbose=1
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc      CMakeFiles/cmTC_26e8b.dir/feature_tests.c.o  -o cmTC_26e8b 
 make[1]: Leaving directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
 
 
@@ -210,28 +210,28 @@ make[1]: Leaving directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a109d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a109d.dir/build.make CMakeFiles/cmTC_a109d.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_5475e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5475e.dir/build.make CMakeFiles/cmTC_5475e.dir/build
 make[1]: Entering directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a109d.dir/testCXXCompiler.cxx.o
-/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++     -o CMakeFiles/cmTC_a109d.dir/testCXXCompiler.cxx.o -c /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_a109d
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a109d.dir/link.txt --verbose=1
-/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++       CMakeFiles/cmTC_a109d.dir/testCXXCompiler.cxx.o  -o cmTC_a109d 
+Building CXX object CMakeFiles/cmTC_5475e.dir/testCXXCompiler.cxx.o
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++     -o CMakeFiles/cmTC_5475e.dir/testCXXCompiler.cxx.o -c /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_5475e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5475e.dir/link.txt --verbose=1
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++       CMakeFiles/cmTC_5475e.dir/testCXXCompiler.cxx.o  -o cmTC_5475e 
 make[1]: Leaving directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8127f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8127f.dir/build.make CMakeFiles/cmTC_8127f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_83943/fast"
+/usr/bin/make -f CMakeFiles/cmTC_83943.dir/build.make CMakeFiles/cmTC_83943.dir/build
 make[1]: Entering directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8127f.dir/CMakeCXXCompilerABI.cpp.o
-/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++     -o CMakeFiles/cmTC_8127f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_8127f
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8127f.dir/link.txt --verbose=1
-/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++      -v CMakeFiles/cmTC_8127f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8127f 
+Building CXX object CMakeFiles/cmTC_83943.dir/CMakeCXXCompilerABI.cpp.o
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++     -o CMakeFiles/cmTC_83943.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_83943
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83943.dir/link.txt --verbose=1
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++      -v CMakeFiles/cmTC_83943.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_83943 
 Using built-in specs.
 COLLECT_GCC=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++
 COLLECT_LTO_WRAPPER=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/lto-wrapper
@@ -241,9 +241,9 @@ Thread model: posix
 gcc version 6.3.0 (Compiler & Codesign TD V100R001C00B119) 
 COMPILER_PATH=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/bin/
 LIBRARY_PATH=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/../lib64/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/lib/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8127f' '-shared-libgcc' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64' '-fno-tree-coalesce-vars'
- /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/collect2 -plugin /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/liblto_plugin.so -plugin-opt=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrazHAh.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -o cmTC_8127f /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crt1.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crti.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/crtbegin.o -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0 -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/../lib64 -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/lib -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib CMakeFiles/cmTC_8127f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/crtend.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8127f' '-shared-libgcc' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64' '-fno-tree-coalesce-vars'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_83943' '-shared-libgcc' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64' '-fno-tree-coalesce-vars'
+ /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/collect2 -plugin /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/liblto_plugin.so -plugin-opt=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDVyRC0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -o cmTC_83943 /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crt1.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crti.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/crtbegin.o -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0 -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/../lib64 -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/lib -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib CMakeFiles/cmTC_83943.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/crtend.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_83943' '-shared-libgcc' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64' '-fno-tree-coalesce-vars'
 make[1]: Leaving directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
 
 
@@ -251,14 +251,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8127f/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8127f.dir/build.make CMakeFiles/cmTC_8127f.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_83943/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_83943.dir/build.make CMakeFiles/cmTC_83943.dir/build]
   ignore line: [make[1]: Entering directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_8127f.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++     -o CMakeFiles/cmTC_8127f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_8127f]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8127f.dir/link.txt --verbose=1]
-  ignore line: [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++      -v CMakeFiles/cmTC_8127f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8127f ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_83943.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++     -o CMakeFiles/cmTC_83943.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_83943]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83943.dir/link.txt --verbose=1]
+  ignore line: [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++      -v CMakeFiles/cmTC_83943.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_83943 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++]
   ignore line: [COLLECT_LTO_WRAPPER=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/lto-wrapper]
@@ -268,13 +268,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 6.3.0 (Compiler & Codesign TD V100R001C00B119) ]
   ignore line: [COMPILER_PATH=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/bin/]
   ignore line: [LIBRARY_PATH=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/../lib64/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/lib/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8127f' '-shared-libgcc' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64' '-fno-tree-coalesce-vars']
-  link line: [ /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/collect2 -plugin /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/liblto_plugin.so -plugin-opt=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrazHAh.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -o cmTC_8127f /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crt1.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crti.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/crtbegin.o -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0 -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/../lib64 -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/lib -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib CMakeFiles/cmTC_8127f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/crtend.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_83943' '-shared-libgcc' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64' '-fno-tree-coalesce-vars']
+  link line: [ /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/collect2 -plugin /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/liblto_plugin.so -plugin-opt=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDVyRC0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -o cmTC_83943 /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crt1.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crti.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/crtbegin.o -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0 -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/../lib64 -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/lib -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib CMakeFiles/cmTC_83943.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/crtend.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crtn.o]
     arg [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccrazHAh.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccDVyRC0.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -290,7 +290,7 @@ Parsed CXX implicit link information from above output:
     arg [--fix-cortex-a53-835769] ==> ignore
     arg [--fix-cortex-a53-843419] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_8127f] ==> ignore
+    arg [cmTC_83943] ==> ignore
     arg [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crt1.o] ==> ignore
     arg [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crti.o] ==> ignore
     arg [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/crtbegin.o] ==> ignore
@@ -301,7 +301,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib] ==> dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib]
     arg [-L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/lib] ==> dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/lib]
     arg [-L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib] ==> dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib]
-    arg [CMakeFiles/cmTC_8127f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_83943.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -332,14 +332,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e45c8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e45c8.dir/build.make CMakeFiles/cmTC_e45c8.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a8329/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a8329.dir/build.make CMakeFiles/cmTC_a8329.dir/build
 make[1]: Entering directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e45c8.dir/feature_tests.cxx.o
-/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++    -std=c++1z -o CMakeFiles/cmTC_e45c8.dir/feature_tests.cxx.o -c /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_e45c8
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e45c8.dir/link.txt --verbose=1
-/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++       CMakeFiles/cmTC_e45c8.dir/feature_tests.cxx.o  -o cmTC_e45c8 
+Building CXX object CMakeFiles/cmTC_a8329.dir/feature_tests.cxx.o
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++    -std=c++1z -o CMakeFiles/cmTC_a8329.dir/feature_tests.cxx.o -c /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a8329
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8329.dir/link.txt --verbose=1
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++       CMakeFiles/cmTC_a8329.dir/feature_tests.cxx.o  -o cmTC_a8329 
 make[1]: Leaving directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
 
 
@@ -405,14 +405,14 @@ make[1]: Leaving directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f27fb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f27fb.dir/build.make CMakeFiles/cmTC_f27fb.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_96e09/fast"
+/usr/bin/make -f CMakeFiles/cmTC_96e09.dir/build.make CMakeFiles/cmTC_96e09.dir/build
 make[1]: Entering directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f27fb.dir/feature_tests.cxx.o
-/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++    -std=c++14 -o CMakeFiles/cmTC_f27fb.dir/feature_tests.cxx.o -c /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f27fb
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f27fb.dir/link.txt --verbose=1
-/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++       CMakeFiles/cmTC_f27fb.dir/feature_tests.cxx.o  -o cmTC_f27fb 
+Building CXX object CMakeFiles/cmTC_96e09.dir/feature_tests.cxx.o
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++    -std=c++14 -o CMakeFiles/cmTC_96e09.dir/feature_tests.cxx.o -c /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_96e09
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96e09.dir/link.txt --verbose=1
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++       CMakeFiles/cmTC_96e09.dir/feature_tests.cxx.o  -o cmTC_96e09 
 make[1]: Leaving directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
 
 
@@ -478,14 +478,14 @@ make[1]: Leaving directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1a44b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1a44b.dir/build.make CMakeFiles/cmTC_1a44b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_56a7d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_56a7d.dir/build.make CMakeFiles/cmTC_56a7d.dir/build
 make[1]: Entering directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1a44b.dir/feature_tests.cxx.o
-/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++    -std=c++11 -o CMakeFiles/cmTC_1a44b.dir/feature_tests.cxx.o -c /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_1a44b
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a44b.dir/link.txt --verbose=1
-/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++       CMakeFiles/cmTC_1a44b.dir/feature_tests.cxx.o  -o cmTC_1a44b 
+Building CXX object CMakeFiles/cmTC_56a7d.dir/feature_tests.cxx.o
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++    -std=c++11 -o CMakeFiles/cmTC_56a7d.dir/feature_tests.cxx.o -c /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_56a7d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56a7d.dir/link.txt --verbose=1
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++       CMakeFiles/cmTC_56a7d.dir/feature_tests.cxx.o  -o cmTC_56a7d 
 make[1]: Leaving directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
 
 
@@ -551,14 +551,14 @@ make[1]: Leaving directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_14310/fast"
-/usr/bin/make -f CMakeFiles/cmTC_14310.dir/build.make CMakeFiles/cmTC_14310.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c7039/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c7039.dir/build.make CMakeFiles/cmTC_c7039.dir/build
 make[1]: Entering directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_14310.dir/feature_tests.cxx.o
-/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++    -std=c++98 -o CMakeFiles/cmTC_14310.dir/feature_tests.cxx.o -c /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_14310
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14310.dir/link.txt --verbose=1
-/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++       CMakeFiles/cmTC_14310.dir/feature_tests.cxx.o  -o cmTC_14310 
+Building CXX object CMakeFiles/cmTC_c7039.dir/feature_tests.cxx.o
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++    -std=c++98 -o CMakeFiles/cmTC_c7039.dir/feature_tests.cxx.o -c /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c7039
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7039.dir/link.txt --verbose=1
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++       CMakeFiles/cmTC_c7039.dir/feature_tests.cxx.o  -o cmTC_c7039 
 make[1]: Leaving directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
 
 
