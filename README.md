@@ -1,6 +1,8 @@
 #  this is a sample VISION project.
 
-编译：
+# 编译成静态库：
+
+```
 cd $VISION
 mkdir build
 cd build
@@ -8,11 +10,13 @@ cmake ..
 make -j$(nproc)
 $VISION/lib 目录下生成libvision.a静态库
 注：编译默认只编译crnn相关函数，facerecognization相关函数可添加编译选项-DNOT_ONLY_CRNN编译（相关函数未标准化）。
+```
 
-使用说明：
+#使用说明：
 
 提供三个接口函数：
 
+```
 // 说明：根据识别出的文本框对里面的文字进行识别
 // 初始化，用以加载ncnn lstm文字识别模型
 void DKBoxTextRecognizationInit();
@@ -22,8 +26,11 @@ char * DKBoxTextRecognizationProcess(char * imgfilename, DKSBox box, DKSBoxTextR
 
 // 释放ncnn文字识别结构资源
 void DKBoxTextRecognizationEnd();
+```
 
 结构体定义：
+
+```
 typedef struct
 {
     //左上角开始顺时针点坐标
@@ -43,5 +50,5 @@ typedef struct
    const char* lexicon;//此选项未实现
 
 }DKSBoxTextRecognizationParam;
-
+```
 
