@@ -22,7 +22,7 @@ $VISION/lib 目录下生成libvision.a静态库
 void DKBoxTextRecognizationInit();
 
 // 运行ncnn lstm文字识别，输出识别字符串
-char* DKBoxTextRecognizationProcess(unsigned char* yuvData, int iHeight, int iWidth, DKSBox box, DKSBoxTextRecognizationParam param);
+char* DKBoxTextRecognizationProcess(const char* imgfilename, int iHeight, int iWidth, DKSBox box, DKSBoxTextRecognizationParam param)
 
 // 释放ncnn文字识别结构资源
 void DKBoxTextRecognizationEnd();
