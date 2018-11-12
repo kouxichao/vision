@@ -21,8 +21,14 @@ typedef struct
     
 }DKSBoxTextRecognizationParam;
 
-
+// 说明：根据识别出的文本框对里面的文字进行识别
+// 初始化，用以加载ncnn lstm文字识别模型
 void DKBoxTextRecognizationInit();
-char* DKBoxTextRecognizationProcess(const char* imgfilename, DKSBox box, DKSBoxTextRecognizationParam param);
+
+// 运行ncnn lstm文字识别，输出识别字符串
+char* DKBoxTextRecognizationProcess(unsigned char* yuvData, int iHeight, int iWidth, DKSBox box, DKSBoxTextRecognizationParam param);
+
+// 释放ncnn文字识别结构资源
 void DKBoxTextRecognizationEnd();
+
 #endif

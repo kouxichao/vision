@@ -16,13 +16,13 @@
 
 int main(int argc, char** argv)
 {
-    const char* imagepath = argv[1];
+    unsigned char yuvData[70*180*2] = {0};
     DKSBoxTextRecognizationParam  param = {"0"};  
     char* result;
 
     DKSBox box = {0,0,180,0,180,70,0,70};
     DKBoxTextRecognizationInit();
-    result = DKBoxTextRecognizationProcess(imagepath, box, param);
+    result = DKBoxTextRecognizationProcess(yuvData, 70, 180, box, param);
     DKBoxTextRecognizationEnd();
 
     printf("recognization results: "); 

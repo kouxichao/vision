@@ -12,17 +12,23 @@ void DKBoxTextRecognizationInit()
     netCrnn.load_model("crnn.bin");
 }
 
-char* DKBoxTextRecognizationProcess(const char* imgfilename, DKSBox box, DKSBoxTextRecognizationParam param)
+char* DKBoxTextRecognizationProcess(unsigned char* yuvData, int iHeight, int iWidth, DKSBox box, DKSBoxTextRecognizationParam param)
 {
     //裁剪文字区域
-    dlib::array2d<dlib::rgb_pixel> rgb_img;
-    load_image(rgb_img, imgfilename);
-    
-    int col = (int)rgb_img.nc();
-    int row = (int)rgb_img.nr();
+    //dlib::array2d<dlib::rgb_pixel> rgb_img;
+    //rgb_img.set_size(iHeight, iWidth);
+   
+    if(NULL == yuvData || iWidth < 1 || iHeight < 1)
+    {
+        fprintf(stderr, "YUV data error!");
+        exit(1);
+    }
 
+    int numOfPixel  = iHeight*iWidth; 
+    int positionOfU = numOfPixel;
+    int positionOfV = numOfPixel/2 + numOfPixel;
     ncnn::Mat img;
-    img.create(col, row, 3, 1);
+    img.create(iWidth, iHeight, 3, 1);
    
     int y_top = box.y1 > box.y2 ? box.y2 : box.y1;
     int y_bottom = box.y3 > box.y4 ? box.y3 : box.y4;
@@ -30,26 +36,33 @@ char* DKBoxTextRecognizationProcess(const char* imgfilename, DKSBox box, DKSBoxT
     int x_right = box.x2 > box.x3 ? box.x2 : box.x3;
     y_top =  y_top > 0 ?  y_top : 0;
     x_left = x_left > 0 ? x_left : 0;
-    y_bottom = y_bottom < row ? y_bottom : row; 
-    x_right = x_right < col ? x_right : col; 
-    col = x_right - x_left;
-    row = y_bottom - y_top;
+    y_bottom = y_bottom < iHeight ? y_bottom : iHeight; 
+    x_right = x_right < iWidth ? x_right : iWidth; 
+    int cols = x_right - x_left;
+    int rows = y_bottom - y_top;
     
     #pragma omp parallel for 
     for(int i = y_top; i < y_bottom; i++)
     {
+        int startY = i*iWidth;
+        int step = i*iWidth/2;
+        int startU = positionOfU + step;
+        int startV = positionOfV + step;
         for(int j=x_left; j< x_right; j++)
         {
-            *((unsigned char*)(img.data)+3*i*col+3*j)   = rgb_img[i][j].blue;
-            *((unsigned char*)(img.data)+3*i*col+3*j+1) = rgb_img[i][j].green;
-            *((unsigned char*)(img.data)+3*i*col+3*j+2) = rgb_img[i][j].red;
+	    int Y = startY + j;
+	    int U = startU + j/2;
+	    int V = startV + j/2;
+            *((unsigned char*)(img.data)+3*i*cols+3*j)   = (unsigned char)(yuvData[Y] +  1.4075 * (yuvData[V] - 128));
+            *((unsigned char*)(img.data)+3*i*cols+3*j+1) = (unsigned char)(yuvData[Y] - 0.3455 * (yuvData[U] - 128)  - 0.7169 * (yuvData[V] - 128));
+            *((unsigned char*)(img.data)+3*i*cols+3*j+2) = (unsigned char)(yuvData[Y] + 1.779 * (yuvData[U] - 128));
         }
     }
 
     //预处理并获取字符序列索引
     ncnn::Mat in,input_data;
     ncnn::Mat pred;
-    in = ncnn::Mat::from_pixels((unsigned char*)img.data, ncnn::Mat::PIXEL_BGR2GRAY, col, row);
+    in = ncnn::Mat::from_pixels((unsigned char*)img.data, ncnn::Mat::PIXEL_RGB, cols, rows);
     ncnn::resize_bilinear(in,input_data,100,32);
     input_data.reshape(100,32,1);
     
