@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <omp.h>
-#include "dlib/image_io.h"
 #include "net.h"
 #include "text_recognization.h"
 
