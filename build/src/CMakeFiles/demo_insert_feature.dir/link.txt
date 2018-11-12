@@ -1,0 +1,1 @@
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++   -fopenmp -O3 -mcpu=cortex-a53+simd -mcpu=cortex-a53+fp   CMakeFiles/demo_insert_feature.dir/demo_insert_feature.cpp.o  -o ../../bin/demo_insert_feature ../../lib/libncnnface.a ../../lib/libncnn.a ../../lib/libsqlite3.a ../../lib/libdlib.a -ldl -lpthread 

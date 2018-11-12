@@ -1,0 +1,621 @@
+The system is: Linux - 4.4.0-137-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/server/dk_app/ncnn/examples/face/build/CMakeFiles/3.8.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/server/dk_app/ncnn/examples/face/build/CMakeFiles/3.8.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_43b56/fast"
+/usr/bin/make -f CMakeFiles/cmTC_43b56.dir/build.make CMakeFiles/cmTC_43b56.dir/build
+make[1]: Entering directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43b56.dir/testCCompiler.c.o
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc    -o CMakeFiles/cmTC_43b56.dir/testCCompiler.c.o   -c /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_43b56
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43b56.dir/link.txt --verbose=1
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc      CMakeFiles/cmTC_43b56.dir/testCCompiler.c.o  -o cmTC_43b56 
+make[1]: Leaving directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_236ce/fast"
+/usr/bin/make -f CMakeFiles/cmTC_236ce.dir/build.make CMakeFiles/cmTC_236ce.dir/build
+make[1]: Entering directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_236ce.dir/CMakeCCompilerABI.c.o
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc    -o CMakeFiles/cmTC_236ce.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_236ce
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_236ce.dir/link.txt --verbose=1
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc     -v CMakeFiles/cmTC_236ce.dir/CMakeCCompilerABI.c.o  -o cmTC_236ce 
+Using built-in specs.
+COLLECT_GCC=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc
+COLLECT_LTO_WRAPPER=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/lto-wrapper
+Target: aarch64-linux-gnu
+Configured with: /usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/src/gcc-6.3.0/configure --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=aarch64-linux-gnu --with-arch=armv8-a --prefix=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/install --with-specs='%{!ftree-coalesce-vars:-fno-tree-coalesce-vars}' --disable-libmudflap --enable-libssp --disable-libstdcxx-pch --disable-multilib --enable-multiarch --with-gnu-as --with-gnu-ld --enable-libgomp --disable-libitm --enable-checking=yes --enable-lto --enable-c99 --enable-long-long --enable-nls --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-shared --with-pkgversion='Compiler & Codesign TD V100R001C00B119' --enable-languages=c,c++ --with-headers=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/install/target/usr/include --with-sysroot=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/install/target --with-build-sysroot=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/install/target --with-gmp=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/obj/host-libs/usr --with-mpfr=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/obj/host-libs/usr --with-mpc=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/obj/host-libs/usr --with-cloog=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/obj/host-libs/usr --with-build-time-tools=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/install/aarch64-linux-gnu/bin --libdir=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/install/lib
+Thread model: posix
+gcc version 6.3.0 (Compiler & Codesign TD V100R001C00B119) 
+COMPILER_PATH=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/bin/
+LIBRARY_PATH=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/../lib64/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/lib/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_236ce' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64' '-fno-tree-coalesce-vars'
+ /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/collect2 -plugin /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/liblto_plugin.so -plugin-opt=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3qFSzW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -o cmTC_236ce /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crt1.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crti.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/crtbegin.o -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0 -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/../lib64 -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/lib -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib CMakeFiles/cmTC_236ce.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/crtend.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_236ce' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64' '-fno-tree-coalesce-vars'
+make[1]: Leaving directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_236ce/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_236ce.dir/build.make CMakeFiles/cmTC_236ce.dir/build]
+  ignore line: [make[1]: Entering directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_236ce.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc    -o CMakeFiles/cmTC_236ce.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_236ce]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_236ce.dir/link.txt --verbose=1]
+  ignore line: [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc     -v CMakeFiles/cmTC_236ce.dir/CMakeCCompilerABI.c.o  -o cmTC_236ce ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/lto-wrapper]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: /usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/src/gcc-6.3.0/configure --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=aarch64-linux-gnu --with-arch=armv8-a --prefix=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/install --with-specs='%{!ftree-coalesce-vars:-fno-tree-coalesce-vars}' --disable-libmudflap --enable-libssp --disable-libstdcxx-pch --disable-multilib --enable-multiarch --with-gnu-as --with-gnu-ld --enable-libgomp --disable-libitm --enable-checking=yes --enable-lto --enable-c99 --enable-long-long --enable-nls --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-shared --with-pkgversion='Compiler & Codesign TD V100R001C00B119' --enable-languages=c,c++ --with-headers=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/install/target/usr/include --with-sysroot=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/install/target --with-build-sysroot=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/install/target --with-gmp=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/obj/host-libs/usr --with-mpfr=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/obj/host-libs/usr --with-mpc=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/obj/host-libs/usr --with-cloog=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/obj/host-libs/usr --with-build-time-tools=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/install/aarch64-linux-gnu/bin --libdir=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/install/lib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 (Compiler & Codesign TD V100R001C00B119) ]
+  ignore line: [COMPILER_PATH=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/../lib64/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/lib/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_236ce' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64' '-fno-tree-coalesce-vars']
+  link line: [ /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/collect2 -plugin /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/liblto_plugin.so -plugin-opt=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3qFSzW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -o cmTC_236ce /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crt1.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crti.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/crtbegin.o -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0 -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/../lib64 -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/lib -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib CMakeFiles/cmTC_236ce.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/crtend.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crtn.o]
+    arg [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc3qFSzW.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [--fix-cortex-a53-835769] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_236ce] ==> ignore
+    arg [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crt1.o] ==> ignore
+    arg [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crti.o] ==> ignore
+    arg [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/crtbegin.o] ==> ignore
+    arg [-L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0] ==> dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0]
+    arg [-L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu] ==> dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu]
+    arg [-L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc] ==> dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc]
+    arg [-L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/../lib64] ==> dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/../lib64]
+    arg [-L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib] ==> dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib]
+    arg [-L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/lib] ==> dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/lib]
+    arg [-L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib] ==> dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib]
+    arg [CMakeFiles/cmTC_236ce.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/crtend.o] ==> ignore
+    arg [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0] ==> [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/lib/gcc/aarch64-linux-gnu/6.3.0]
+  collapse library dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu] ==> [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/lib/gcc/aarch64-linux-gnu]
+  collapse library dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc] ==> [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/lib/gcc]
+  collapse library dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/../lib64] ==> [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/aarch64-linux-gnu/lib64]
+  collapse library dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib] ==> [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/aarch64-linux-gnu/lib]
+  collapse library dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/lib] ==> [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/target/lib]
+  collapse library dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib] ==> [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/target/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/lib/gcc/aarch64-linux-gnu/6.3.0;/opt/hisi-linux/x86-arm/aarch64-himix100-linux/lib/gcc/aarch64-linux-gnu;/opt/hisi-linux/x86-arm/aarch64-himix100-linux/lib/gcc;/opt/hisi-linux/x86-arm/aarch64-himix100-linux/aarch64-linux-gnu/lib64;/opt/hisi-linux/x86-arm/aarch64-himix100-linux/aarch64-linux-gnu/lib;/opt/hisi-linux/x86-arm/aarch64-himix100-linux/target/lib;/opt/hisi-linux/x86-arm/aarch64-himix100-linux/target/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_22414/fast"
+/usr/bin/make -f CMakeFiles/cmTC_22414.dir/build.make CMakeFiles/cmTC_22414.dir/build
+make[1]: Entering directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22414.dir/feature_tests.c.o
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc   -std=c11 -o CMakeFiles/cmTC_22414.dir/feature_tests.c.o   -c /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_22414
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22414.dir/link.txt --verbose=1
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc      CMakeFiles/cmTC_22414.dir/feature_tests.c.o  -o cmTC_22414 
+make[1]: Leaving directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_23f91/fast"
+/usr/bin/make -f CMakeFiles/cmTC_23f91.dir/build.make CMakeFiles/cmTC_23f91.dir/build
+make[1]: Entering directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_23f91.dir/feature_tests.c.o
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc   -std=c99 -o CMakeFiles/cmTC_23f91.dir/feature_tests.c.o   -c /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_23f91
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23f91.dir/link.txt --verbose=1
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc      CMakeFiles/cmTC_23f91.dir/feature_tests.c.o  -o cmTC_23f91 
+make[1]: Leaving directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6d46c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6d46c.dir/build.make CMakeFiles/cmTC_6d46c.dir/build
+make[1]: Entering directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6d46c.dir/feature_tests.c.o
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc   -std=c90 -o CMakeFiles/cmTC_6d46c.dir/feature_tests.c.o   -c /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_6d46c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d46c.dir/link.txt --verbose=1
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc      CMakeFiles/cmTC_6d46c.dir/feature_tests.c.o  -o cmTC_6d46c 
+make[1]: Leaving directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a109d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a109d.dir/build.make CMakeFiles/cmTC_a109d.dir/build
+make[1]: Entering directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a109d.dir/testCXXCompiler.cxx.o
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++     -o CMakeFiles/cmTC_a109d.dir/testCXXCompiler.cxx.o -c /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_a109d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a109d.dir/link.txt --verbose=1
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++       CMakeFiles/cmTC_a109d.dir/testCXXCompiler.cxx.o  -o cmTC_a109d 
+make[1]: Leaving directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8127f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8127f.dir/build.make CMakeFiles/cmTC_8127f.dir/build
+make[1]: Entering directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8127f.dir/CMakeCXXCompilerABI.cpp.o
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++     -o CMakeFiles/cmTC_8127f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_8127f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8127f.dir/link.txt --verbose=1
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++      -v CMakeFiles/cmTC_8127f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8127f 
+Using built-in specs.
+COLLECT_GCC=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++
+COLLECT_LTO_WRAPPER=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/lto-wrapper
+Target: aarch64-linux-gnu
+Configured with: /usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/src/gcc-6.3.0/configure --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=aarch64-linux-gnu --with-arch=armv8-a --prefix=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/install --with-specs='%{!ftree-coalesce-vars:-fno-tree-coalesce-vars}' --disable-libmudflap --enable-libssp --disable-libstdcxx-pch --disable-multilib --enable-multiarch --with-gnu-as --with-gnu-ld --enable-libgomp --disable-libitm --enable-checking=yes --enable-lto --enable-c99 --enable-long-long --enable-nls --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-shared --with-pkgversion='Compiler & Codesign TD V100R001C00B119' --enable-languages=c,c++ --with-headers=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/install/target/usr/include --with-sysroot=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/install/target --with-build-sysroot=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/install/target --with-gmp=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/obj/host-libs/usr --with-mpfr=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/obj/host-libs/usr --with-mpc=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/obj/host-libs/usr --with-cloog=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/obj/host-libs/usr --with-build-time-tools=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/install/aarch64-linux-gnu/bin --libdir=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/install/lib
+Thread model: posix
+gcc version 6.3.0 (Compiler & Codesign TD V100R001C00B119) 
+COMPILER_PATH=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/bin/
+LIBRARY_PATH=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/../lib64/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/lib/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8127f' '-shared-libgcc' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64' '-fno-tree-coalesce-vars'
+ /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/collect2 -plugin /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/liblto_plugin.so -plugin-opt=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrazHAh.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -o cmTC_8127f /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crt1.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crti.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/crtbegin.o -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0 -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/../lib64 -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/lib -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib CMakeFiles/cmTC_8127f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/crtend.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8127f' '-shared-libgcc' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64' '-fno-tree-coalesce-vars'
+make[1]: Leaving directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8127f/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8127f.dir/build.make CMakeFiles/cmTC_8127f.dir/build]
+  ignore line: [make[1]: Entering directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_8127f.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++     -o CMakeFiles/cmTC_8127f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_8127f]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8127f.dir/link.txt --verbose=1]
+  ignore line: [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++      -v CMakeFiles/cmTC_8127f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8127f ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/lto-wrapper]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: /usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/src/gcc-6.3.0/configure --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=aarch64-linux-gnu --with-arch=armv8-a --prefix=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/install --with-specs='%{!ftree-coalesce-vars:-fno-tree-coalesce-vars}' --disable-libmudflap --enable-libssp --disable-libstdcxx-pch --disable-multilib --enable-multiarch --with-gnu-as --with-gnu-ld --enable-libgomp --disable-libitm --enable-checking=yes --enable-lto --enable-c99 --enable-long-long --enable-nls --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-shared --with-pkgversion='Compiler & Codesign TD V100R001C00B119' --enable-languages=c,c++ --with-headers=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/install/target/usr/include --with-sysroot=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/install/target --with-build-sysroot=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/install/target --with-gmp=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/obj/host-libs/usr --with-mpfr=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/obj/host-libs/usr --with-mpc=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/obj/host-libs/usr --with-cloog=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/obj/host-libs/usr --with-build-time-tools=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/install/aarch64-linux-gnu/bin --libdir=/usr1/code/CODE_CCTD_V1R1C00/code/current/SDK_CPU_UNIFIED/build/script/aarch64-himix100-linux/aarch64_himix100_build_dir/install/lib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 (Compiler & Codesign TD V100R001C00B119) ]
+  ignore line: [COMPILER_PATH=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/../lib64/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/lib/:/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8127f' '-shared-libgcc' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64' '-fno-tree-coalesce-vars']
+  link line: [ /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/collect2 -plugin /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/liblto_plugin.so -plugin-opt=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrazHAh.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -o cmTC_8127f /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crt1.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crti.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/crtbegin.o -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0 -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/../lib64 -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/lib -L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib CMakeFiles/cmTC_8127f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/crtend.o /opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crtn.o]
+    arg [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../libexec/gcc/aarch64-linux-gnu/6.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccrazHAh.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [--fix-cortex-a53-835769] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8127f] ==> ignore
+    arg [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crt1.o] ==> ignore
+    arg [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crti.o] ==> ignore
+    arg [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/crtbegin.o] ==> ignore
+    arg [-L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0] ==> dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0]
+    arg [-L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu] ==> dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu]
+    arg [-L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc] ==> dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc]
+    arg [-L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/../lib64] ==> dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/../lib64]
+    arg [-L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib] ==> dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib]
+    arg [-L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/lib] ==> dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/lib]
+    arg [-L/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib] ==> dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib]
+    arg [CMakeFiles/cmTC_8127f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/crtend.o] ==> ignore
+    arg [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0] ==> [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/lib/gcc/aarch64-linux-gnu/6.3.0]
+  collapse library dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu] ==> [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/lib/gcc/aarch64-linux-gnu]
+  collapse library dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc] ==> [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/lib/gcc]
+  collapse library dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib/../lib64] ==> [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/aarch64-linux-gnu/lib64]
+  collapse library dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../lib/gcc/aarch64-linux-gnu/6.3.0/../../../../aarch64-linux-gnu/lib] ==> [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/aarch64-linux-gnu/lib]
+  collapse library dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/lib] ==> [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/target/lib]
+  collapse library dir [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/host_bin/../target/usr/lib] ==> [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/target/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/opt/hisi-linux/x86-arm/aarch64-himix100-linux/lib/gcc/aarch64-linux-gnu/6.3.0;/opt/hisi-linux/x86-arm/aarch64-himix100-linux/lib/gcc/aarch64-linux-gnu;/opt/hisi-linux/x86-arm/aarch64-himix100-linux/lib/gcc;/opt/hisi-linux/x86-arm/aarch64-himix100-linux/aarch64-linux-gnu/lib64;/opt/hisi-linux/x86-arm/aarch64-himix100-linux/aarch64-linux-gnu/lib;/opt/hisi-linux/x86-arm/aarch64-himix100-linux/target/lib;/opt/hisi-linux/x86-arm/aarch64-himix100-linux/target/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e45c8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e45c8.dir/build.make CMakeFiles/cmTC_e45c8.dir/build
+make[1]: Entering directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e45c8.dir/feature_tests.cxx.o
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++    -std=c++1z -o CMakeFiles/cmTC_e45c8.dir/feature_tests.cxx.o -c /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e45c8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e45c8.dir/link.txt --verbose=1
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++       CMakeFiles/cmTC_e45c8.dir/feature_tests.cxx.o  -o cmTC_e45c8 
+make[1]: Leaving directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f27fb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f27fb.dir/build.make CMakeFiles/cmTC_f27fb.dir/build
+make[1]: Entering directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f27fb.dir/feature_tests.cxx.o
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++    -std=c++14 -o CMakeFiles/cmTC_f27fb.dir/feature_tests.cxx.o -c /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f27fb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f27fb.dir/link.txt --verbose=1
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++       CMakeFiles/cmTC_f27fb.dir/feature_tests.cxx.o  -o cmTC_f27fb 
+make[1]: Leaving directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1a44b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1a44b.dir/build.make CMakeFiles/cmTC_1a44b.dir/build
+make[1]: Entering directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1a44b.dir/feature_tests.cxx.o
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++    -std=c++11 -o CMakeFiles/cmTC_1a44b.dir/feature_tests.cxx.o -c /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1a44b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a44b.dir/link.txt --verbose=1
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++       CMakeFiles/cmTC_1a44b.dir/feature_tests.cxx.o  -o cmTC_1a44b 
+make[1]: Leaving directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_14310/fast"
+/usr/bin/make -f CMakeFiles/cmTC_14310.dir/build.make CMakeFiles/cmTC_14310.dir/build
+make[1]: Entering directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_14310.dir/feature_tests.cxx.o
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++    -std=c++98 -o CMakeFiles/cmTC_14310.dir/feature_tests.cxx.o -c /home/server/dk_app/ncnn/examples/face/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_14310
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14310.dir/link.txt --verbose=1
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++       CMakeFiles/cmTC_14310.dir/feature_tests.cxx.o  -o cmTC_14310 
+make[1]: Leaving directory '/home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/examples/face/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

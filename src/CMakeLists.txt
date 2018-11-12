@@ -1,0 +1,23 @@
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fopenmp -O3 -mcpu=cortex-a53+simd -mcpu=cortex-a53+fp")
+include_directories(${CMAKE_SOURCE_DIR}/../../src)
+include_directories(${CMAKE_SOURCE_DIR}/../../build/src)
+include_directories(${CMAKE_SOURCE_DIR}/../sqlite-autoconf-3250200/)
+include_directories(${CMAKE_SOURCE_DIR}/../dlib-19.15/)
+FIND_LIBRARY(SQLITE_LIB sqlite3  ${CMAKE_SOURCE_DIR}/lib/)
+FIND_LIBRARY(DLIB dlib ${CMAKE_SOURCE_DIR}/lib/)
+FIND_LIBRARY(ncnn_LIB ncnn ${CMAKE_SOURCE_DIR}/lib/)#${CMAKE_SOURCE_DIR}/../../build-android-aarch64/src)
+
+set(SRC_LIST interface_crnn.cpp face_recognization.cpp  dlib_preprocess.cpp extract_face_feature.cpp insert_feature.cpp update_feature.cpp)
+add_library(ncnnface STATIC ${SRC_LIST})
+SET(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin)
+SET(LIBRARY_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/lib)
+
+add_executable(demo_crnn demo_crnn.cpp)
+add_executable(demo_insert_feature demo_insert_feature.cpp)
+add_executable(demo demo.cpp)
+add_executable(create_db db.cpp create_db.cpp)
+target_link_libraries(demo_crnn ncnnface /home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/build-android-aarch64/src/libncnn.a ${DLIB} -ldl -lpthread)
+target_link_libraries(demo ncnnface ${ncnn_LIB} ${SQLITE_LIB} ${DLIB} -ldl -lpthread)
+target_link_libraries(demo_insert_feature ncnnface ${ncnn_LIB} ${SQLITE_LIB} ${DLIB} -ldl -lpthread)
+target_link_libraries(create_db ncnnface ${ncnn_LIB} ${SQLITE_LIB} ${DLIB} -ldl -lpthread)
+
