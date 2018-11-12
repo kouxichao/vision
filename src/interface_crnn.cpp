@@ -11,23 +11,23 @@ void DKBoxTextRecognizationInit()
     netCrnn.load_model("crnn.bin");
 }
 
-char* DKBoxTextRecognizationProcess(unsigned char* yuvData, int iHeight, int iWidth, DKSBox box, DKSBoxTextRecognizationParam param)
+char* DKBoxTextRecognizationProcess(const char* imgfilename, int iHeight, int iWidth, DKSBox box, DKSBoxTextRecognizationParam param)
 {
     //裁剪文字区域
     //dlib::array2d<dlib::rgb_pixel> rgb_img;
     //rgb_img.set_size(iHeight, iWidth);
-   
-    if(NULL == yuvData || iWidth < 1 || iHeight < 1)
+    FILE *stream = NULL; 
+    stream = fopen(imgfilename, "rb");   
+
+    if(NULL == stream)
     {
-        fprintf(stderr, "YUV data error!");
+        fprintf(stderr, "imgdata read error!");
         exit(1);
     }
 
-    int numOfPixel  = iHeight*iWidth; 
-    int positionOfU = numOfPixel;
-    int positionOfV = numOfPixel/2 + numOfPixel;
-    ncnn::Mat img;
-    img.create(iWidth, iHeight, 3, 1);
+    unsigned char* yuvData = new unsigned char[iHeight*iHeight*2]
+    fread(yuvData, 1, iHeight*iHeight*2, stream);
+    fclose(stream);    
    
     int y_top = box.y1 > box.y2 ? box.y2 : box.y1;
     int y_bottom = box.y3 > box.y4 ? box.y3 : box.y4;
@@ -40,11 +40,17 @@ char* DKBoxTextRecognizationProcess(unsigned char* yuvData, int iHeight, int iWi
     int cols = x_right - x_left;
     int rows = y_bottom - y_top;
     
+    ncnn::Mat img;
+    img.create(iWidth, iHeight, 3, 1);
+    int numOfPixel  = iHeight * iWidth; 
+    int positionOfU = numOfPixel;
+    int positionOfV = numOfPixel / 2 + numOfPixel;
+
     #pragma omp parallel for 
     for(int i = y_top; i < y_bottom; i++)
     {
-        int startY = i*iWidth;
-        int step = i*iWidth/2;
+        int startY = i * iWidth;
+        int step = i * iWidth/2;
         int startU = positionOfU + step;
         int startV = positionOfV + step;
         for(int j=x_left; j< x_right; j++)
@@ -57,6 +63,8 @@ char* DKBoxTextRecognizationProcess(unsigned char* yuvData, int iHeight, int iWi
             *((unsigned char*)(img.data)+3*i*cols+3*j+2) = (unsigned char)(yuvData[Y] + 1.779 * (yuvData[U] - 128));
         }
     }
+    
+    yuvData.free();
 
     //预处理并获取字符序列索引
     ncnn::Mat in,input_data;

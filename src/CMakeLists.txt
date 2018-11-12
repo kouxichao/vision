@@ -20,7 +20,7 @@ SET(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin)
 SET(LIBRARY_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/lib)
 
 add_executable(demo_crnn demo_crnn.cpp)
-target_link_libraries(demo_crnn vision /home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/build-android-aarch64/src/libncnn.a ${DLIB} -ldl -lpthread)
+target_link_libraries(demo_crnn vision ${ncnn_LIB} -ldl -lpthread)
 
 if(NOT_ONLY_CRNN)
 add_executable(demo_insert_feature demo_insert_feature.cpp)
