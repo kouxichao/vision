@@ -1,1 +1,0 @@
-/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++   -fopenmp -O3 -mcpu=cortex-a53+simd -mcpu=cortex-a53+fp   CMakeFiles/demo_crnn.dir/demo_crnn.cpp.o  -o ../../bin/demo_crnn ../../lib/libncnnface.a /home/server/hisi/hi3559a/P07/Hi3559AV100_SDK_V2.0.0.7/mpp/dk_app/ncnn/build-android-aarch64/src/libncnn.a ../../lib/libdlib.a -ldl -lpthread 

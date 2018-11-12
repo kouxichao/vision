@@ -1,9 +1,0 @@
-/home/server/dk_app/ncnn/examples/face/build/CMakeFiles/rebuild_cache.dir
-/home/server/dk_app/ncnn/examples/face/build/CMakeFiles/edit_cache.dir
-/home/server/dk_app/ncnn/examples/face/build/src/CMakeFiles/rebuild_cache.dir
-/home/server/dk_app/ncnn/examples/face/build/src/CMakeFiles/create_db.dir
-/home/server/dk_app/ncnn/examples/face/build/src/CMakeFiles/edit_cache.dir
-/home/server/dk_app/ncnn/examples/face/build/src/CMakeFiles/ncnnface.dir
-/home/server/dk_app/ncnn/examples/face/build/src/CMakeFiles/demo_crnn.dir
-/home/server/dk_app/ncnn/examples/face/build/src/CMakeFiles/demo_insert_feature.dir
-/home/server/dk_app/ncnn/examples/face/build/src/CMakeFiles/demo.dir

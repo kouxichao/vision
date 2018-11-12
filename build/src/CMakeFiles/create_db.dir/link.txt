@@ -1,1 +1,0 @@
-/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++   -fopenmp -O3 -mcpu=cortex-a53+simd -mcpu=cortex-a53+fp   CMakeFiles/create_db.dir/db.cpp.o CMakeFiles/create_db.dir/create_db.cpp.o  -o ../../bin/create_db ../../lib/libncnnface.a ../../lib/libncnn.a ../../lib/libsqlite3.a ../../lib/libdlib.a -ldl -lpthread 

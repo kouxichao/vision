@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../lib/libncnnface.a  CMakeFiles/ncnnface.dir/interface_crnn.cpp.o CMakeFiles/ncnnface.dir/face_recognization.cpp.o CMakeFiles/ncnnface.dir/dlib_preprocess.cpp.o CMakeFiles/ncnnface.dir/extract_face_feature.cpp.o CMakeFiles/ncnnface.dir/insert_feature.cpp.o CMakeFiles/ncnnface.dir/update_feature.cpp.o
-/usr/bin/ranlib ../../lib/libncnnface.a
