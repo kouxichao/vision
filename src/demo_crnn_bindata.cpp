@@ -20,11 +20,11 @@ int main(int argc, char** argv)
     DKSBoxTextRecognizationParam  param = {"0"};  
     char* result;
 
-    DKSBox box = {0,0,90,0,90,70,0,70};
+    DKSBox box = {0,0,180,0,180,70,0,70};
     DKBoxTextRecognizationInit();
 
-    //参数依次为二进制图片文件名、四边形坐标DKSBox，最后一个参数目前没用到。
-    result = DKBoxTextRecognizationProcess(imgfilename, box, param);
+    //参数依次为二进制图片文件名、输入图片的高、宽、四边形坐标DKSBox，最后一个参数目前没用到。
+    result = DKBoxTextRecognizationProcess(imgfilename, 70, 180, box, param);
     DKBoxTextRecognizationEnd();
 
     printf("recognization results: "); 
