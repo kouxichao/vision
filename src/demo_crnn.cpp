@@ -16,13 +16,15 @@
 
 int main(int argc, char** argv)
 {
-    unsigned char yuvData[70*180*2] = {0};
+    const char* imgfilename = argv[1];
     DKSBoxTextRecognizationParam  param = {"0"};  
     char* result;
 
     DKSBox box = {0,0,180,0,180,70,0,70};
     DKBoxTextRecognizationInit();
-    result = DKBoxTextRecognizationProcess(yuvData, 70, 180, box, param);
+
+    //参数依次为二进制图片文件名、输入图片的高、宽、四边形坐标DKSBox，最后一个参数目前没用到。
+    result = DKBoxTextRecognizationProcess(imgfilename, 70, 180, box, param);
     DKBoxTextRecognizationEnd();
 
     printf("recognization results: "); 

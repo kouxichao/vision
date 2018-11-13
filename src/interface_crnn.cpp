@@ -25,8 +25,8 @@ char* DKBoxTextRecognizationProcess(const char* imgfilename, int iHeight, int iW
         exit(1);
     }
 
-    unsigned char* yuvData = new unsigned char[iHeight*iHeight*2]
-    fread(yuvData, 1, iHeight*iHeight*2, stream);
+    unsigned char* rgbData = new unsigned char[iHeight*iHeight*3];
+    fread(rgbData, 1, iHeight*iHeight*3, stream);
     fclose(stream);    
    
     int y_top = box.y1 > box.y2 ? box.y2 : box.y1;
@@ -41,7 +41,8 @@ char* DKBoxTextRecognizationProcess(const char* imgfilename, int iHeight, int iW
     int rows = y_bottom - y_top;
     
     ncnn::Mat img;
-    img.create(iWidth, iHeight, 3, 1);
+    img.create(cols, rows, 3, 1);
+/*
     int numOfPixel  = iHeight * iWidth; 
     int positionOfU = numOfPixel;
     int positionOfV = numOfPixel / 2 + numOfPixel;
@@ -63,8 +64,18 @@ char* DKBoxTextRecognizationProcess(const char* imgfilename, int iHeight, int iW
             *((unsigned char*)(img.data)+3*i*cols+3*j+2) = (unsigned char)(yuvData[Y] + 1.779 * (yuvData[U] - 128));
         }
     }
-    
-    yuvData.free();
+ */
+    for(int i = y_top; i < y_bottom; i++)
+    {
+        for(int j=x_left; j<x_right; j++)
+        {
+            *((unsigned char*)(img.data)+3*(i-y_top)*cols+3*(j-x_left))   = rgbData[3*i*iWidth+3*j];
+            *((unsigned char*)(img.data)+3*(i-y_top)*cols+3*(j-x_left)+1) = rgbData[3*i*iWidth+3*j+1];
+            *((unsigned char*)(img.data)+3*(i-y_top)*cols+3*(j-x_left)+2) = rgbData[3*i*iWidth+3*j+2];
+        }
+    }
+   
+    delete  [] rgbData;
 
     //预处理并获取字符序列索引
     ncnn::Mat in,input_data;
