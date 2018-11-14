@@ -1,4 +1,4 @@
-#  this is a sample VISION project.
+#  this is a VISION project for hisi3559a.
 
 # 编译成静态库：
 
@@ -11,10 +11,11 @@ make -j$(nproc)
 $VISION/lib 目录下生成libvision.a静态库
 注：编译默认只编译crnn相关函数，facerecognization相关函数可添加编译选项-DNOT_ONLY_CRNN编译（相关函数未标准化）。
 ```
+#crnn
 
-# 使用说明：
+使用说明：
 
-提供三个接口函数：
+ 提供三个接口函数：
 
 ```
 // 说明：根据识别出的文本框对里面的文字进行识别
@@ -28,7 +29,7 @@ char* DKBoxTextRecognizationProcess(const char* imgfilename, int iHeight, int iW
 void DKBoxTextRecognizationEnd();
 ```
 
-结构体定义：
+  结构体定义：
 
 ```
 typedef struct
@@ -52,3 +53,7 @@ typedef struct
 }DKSBoxTextRecognizationParam;
 ```
 
+  使用示例:
+```
+  https://github.com/kouxichao/crnn
+```
