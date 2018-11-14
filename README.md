@@ -11,7 +11,7 @@ make -j$(nproc)
 $VISION/lib 目录下生成libvision.a静态库
 注：编译默认只编译crnn相关函数，facerecognization相关函数可添加编译选项-DNOT_ONLY_CRNN编译（相关函数未标准化）。
 ```
-#crnn
+# crnn
 
 使用说明：
 
