@@ -55,7 +55,7 @@ typedef struct
  
 执行与测试：
 ```  
-  bin文件目录下生成可执行文件demo_crnn，把模型文件放入bin目录下，执行测试程序。
+  bin文件目录下生成可执行文件demo_crnn，把models目录下的模型文件crnn.bin,crnn.param放入bin目录下，执行测试程序。
 ```
 使用生成的库文件编译可执行程序示例:
 ```
