@@ -1,0 +1,1 @@
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++   -fopenmp -O3 -mcpu=cortex-a53+simd -mcpu=cortex-a53+fp   CMakeFiles/demo_crnn.dir/demo_crnn.cpp.o  -o ../../bin/demo_crnn ../../lib/libvision.a ../../lib/libncnn.a ../../lib/libdlib.a -ldl -lpthread 

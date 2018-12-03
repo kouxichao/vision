@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libvision.a  CMakeFiles/vision.dir/interface_crnn.cpp.o
+/usr/bin/ranlib ../../lib/libvision.a

@@ -1,5 +1,4 @@
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fopenmp -O3 -mcpu=cortex-a53+simd -mcpu=cortex-a53+fp")
-#include_directories(${CMAKE_SOURCE_DIR}/../../src)
 include_directories(${CMAKE_SOURCE_DIR}/src/sqlite)
 include_directories(${CMAKE_SOURCE_DIR}/src/ncnn)
 include_directories(${CMAKE_SOURCE_DIR}/src/)

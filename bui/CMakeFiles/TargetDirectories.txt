@@ -1,0 +1,6 @@
+/home/server/dk_app/ncnn/examples/vision/bui/CMakeFiles/rebuild_cache.dir
+/home/server/dk_app/ncnn/examples/vision/bui/CMakeFiles/edit_cache.dir
+/home/server/dk_app/ncnn/examples/vision/bui/src/CMakeFiles/rebuild_cache.dir
+/home/server/dk_app/ncnn/examples/vision/bui/src/CMakeFiles/edit_cache.dir
+/home/server/dk_app/ncnn/examples/vision/bui/src/CMakeFiles/demo_crnn.dir
+/home/server/dk_app/ncnn/examples/vision/bui/src/CMakeFiles/vision.dir

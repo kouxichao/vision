@@ -16,15 +16,17 @@
 
 int main(int argc, char** argv)
 {
-    const char* imgfilename = argv[1];
+    const char* rgbfilename = argv[1];
+    int iWidth = 100, iHeight = 32;
     DKSBoxTextRecognizationParam  param = {"0"};  
     char* result;
 
     DKSBox box = {0,0,90,0,90,70,0,70};
     DKBoxTextRecognizationInit();
 
+    
     //参数依次为二进制图片文件名、四边形坐标DKSBox，最后一个参数目前没用到。
-    result = DKBoxTextRecognizationProcess(imgfilename, box, param);
+    result = DKBoxTextRecognizationProcess(rgbfilename, iWidth, iHeight, box, param);
     DKBoxTextRecognizationEnd();
 
     printf("recognization results: "); 

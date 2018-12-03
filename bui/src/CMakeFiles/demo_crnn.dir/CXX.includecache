@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/server/dk_app/ncnn/examples/vision/src/demo_crnn.cpp
+stdio.h
+-
+text_recognization.h
+/home/server/dk_app/ncnn/examples/vision/src/text_recognization.h
+
+/home/server/dk_app/ncnn/examples/vision/src/text_recognization.h
+
