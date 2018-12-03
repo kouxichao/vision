@@ -12,7 +12,7 @@ void DKBoxTextRecognizationInit()
     netCrnn.load_model("crnn.bin");
 }
 
-char* DKBoxTextRecognizationProcess(const char* imgfilename, DKSBox box, DKSBoxTextRecognizationParam param)
+char* DKBoxTextRecognizationProcess(const char* rgbfilename, DKSBox box, DKSBoxTextRecognizationParam param)
 {
     //裁剪文字区域
     dlib::array2d<dlib::rgb_pixel> rgb_img;
